@@ -1,13 +1,237 @@
-#navbar{
-    background-color: coral;
-    text-align:center;
+body {
+    background-image: url("https://powerofpain.org/wp-content/uploads/2016/03/wood-background.jpg");
+}
+
+#navbar {
+    background-color: lightblue;
+    text-align: left;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+#box {
+    width: 1350px;
+    height: 10px;
+    border: 2px;
+    background-color: orange;
+    margin-top: 10px
+}
+
+p {
+    color: white;
+}
+
+h1 {
+    color: white;
+    text-align: center
+}
+
+ul {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+#backgroundbox {
+    background-color: grey;
+    width: 50%;
+}
+
+#whoIAm {
+    position: relative;
+    left: -30%;
+    top: 30%;
+}
+
+#favFood {
+    position: absolute;
+    left: 50%;
+    top: 12.5%;
+    border-style: dotted;
+    border-color: white;
+}
+
+#whoIAmFull {
+    position: absolute;
+    top: 12.5%;
+    border-style: dotted;
+    border-color: white;
+}
+
+#whoIAmPlusFav {
+    display: inline-block;
+}
+
+#allOfHobbies {
+    background-color: grey;
+    position: absolute;
+    bottom: 12%;
+    right: 46%;
+    color: white;
+    border-style: dotted;
+    border-color: white
+}
+
+#backgroundbox2 {
+    background-color: grey;
+}
+
+#checkAboutMe {
+    color: black;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 45%;
+    font-size: 300%;
+}
+
+#WELCOME {
+    color: lightblue;
+    position: absolute;
+    text-align: center;
+    top: 10%;
+    left: 48%;
+    font-size: 750%;
+}
+
+#ToWebsite {
+    color: white;
+    position: absolute;
+    text-align: center;
+    top: 35%;
+    left: 49%;
+    font-size: 450%;
+}
+
+#Pug {
+    position: fixed;
+    bottom: 13%;
+    left: -5%;
+    height: 300px;
+    animation: walk 5s infinite;
+    transition-duration: 3s;
+}
+
+@keyframes walk {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        top: 100px;
+    }
+    75% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes walk {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        top: 100px;
+    }
+    75% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+#Pug2 {
+    position: fixed;
+    bottom: -53%;
+    left: 11%;
+    height: 550px;
+    animation: walk 5s infinite;
+    transition-duration: 3s;
+}
+
+@keyframes walk {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        top: 100px;
+    }
+    75% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes walk {
+    0% {
+        top: 0px;
+    }
+    25% {
+        top: 100px;
+    }
+    50% {
+        top: 100px;
+    }
+    75% {
+        top: 200px;
+    }
+    100% {
+        top: 0px;
+    }
+}
+
+#Motherboard { 
+    position: relative;
+    width: 350px;
+
+
+}
+
+#Motherboard2 {
+    position: relative;
+    width: 300px;
+    left: 45%;
+}
+ 
+#motherbox {
+    position: absolute;
+    left: 350px;
+    height: 200px;
+    width: 600px;
+    text-align: center;
+    font-size: 145%;
     
 }
-#navbar a{
-    text-decoration: none;
-    color:black;
-}
-#navbar li{
-    display:inline-block;
-    padding: 15px;
+
+#CPUbox {
+    position: relative;
+    left: 350px;
+    height: 105px;
+    width: 600px;
+    text-align: center;
+    font-size: 145%;
+    
 }
