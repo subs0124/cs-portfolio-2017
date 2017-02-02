@@ -3,17 +3,36 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-<body>
-    <div id="navbar">
+<div id="navbar">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="aboutMe.html">About me</a></li>
             <li><a href="hardware.html">Hardware</a></li>
+            <li><a href="howToPage.html">How To(1)</a> </li>
             <li><a href="calc.html"> Calculator </a> </li>
-            <li><a href="#"> Todo List </a> </li>
+            <li><a href="TodoList.html"> Todo List </a> </li>
+            <li><a href="#">How To (2)</a> </li>
             <li><a href="#"> Vindinium </a> </li>
             <li><a href="#"> Big Project </a> </li>
         </ul>
     </div>
-    
-</body> 
+
+    <h1>Calculator</h1>
+
+    <input type="number" id="calcInput1">
+    <select id="dropdown">
+        <option value = "+">+</option>
+        <option value = "-">-</option>
+        <option value = "*">*</option>
+        <option value = "/">/</option>
+        <option value = "^">^2</option>
+        <option value = "sqrt">&radic; </option>
+    </select>
+
+    <input type="number" id="calcInput2">
+    <input type="button" value="=" id="button1">
+
+    <div id="calAnswer"></div>
+
+    <script src="calc.js"></script>
+</body>

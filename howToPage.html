@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>How To (1)</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About me</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
+        <li><a href="howToPage.html">How To (1)</a> </li>
+        <li><a href="calc.html"> Calculator </a> </li>
+        <li><a href="TodoList.html"> Todo List </a> </li>
+        <li><a href="#">How To (2)</a> </li>
+        <li><a href="#"> Vindinium </a> </li>
+        <li><a href="#"> Big Project </a> </li>
+    </ul>
+</div>
+
+<body>
+    <h1> Blog: How to</h1>
+    <div id="blogbox">
+        <img src="images/ex2.png" />
+        <p class="textClass">Start your website by adding the html doctype declaration and other basic codes such as body, head, title tags. After you do so, you must connect this html page to your style.css page. To do this, I wrote a link tag, which is highlighted above.
+            This link is made up of a a rel and a href attribute. Having these attributes in the link tag, allow you to connect directly to your css page. A rel attribute connects the current html page to the linked document (which is style.css in href).
+            The href attribute identifies where the link leads to, which in our case is going to be the style.css page. After you write this code, your html page is now connected to your style.css page. </p>
+    </div>
+    <div id="blogbox2">
+        <p class="textClass">(Now explaining the reason why I have text-align in a style tag, is to make every heading (h1) center aligned (hence why it says center). This means that the heading is in the center of the page.) </p>
+    </div>
+    <div id="blogbox3">
+        <img src="images/ex6.png" />
+        <p class="textClass">The next thing we’re going to tackle is making a navbar (or a menu bar). First off we are going to make a div and title it navbar (we do this with, id=). Titling this div will make it easier to find in your style.css page. After doing so, make
+            a unordered list, which will hold different list items that will later be the different pages of your website listed on your navbar. After making your unordered list tags,
+            < ul>
+                < /ul>, we are going to then add list item tags,
+                    < li></ li>. For every list item, there is a href that links to different pages of your website. After giving each item a href attribute, you will then add a name to that list item. If you look to the first list item of my navbar, the href
+                    leads to the index, which I then named Home. Do this for every page that you want to add to the navbar. Tada, you have created a navigation bar that leads to each page of your website.
+        </p>
+    </div>
+    <div id="blogbox4">
+        <img src="images/ex7.png" />
+        <p class="textClass">Now I am going to touch on the subject of your style.css page. This page is going to be used to add background color and other cool details to your html pages. By adding an id to the div that contains our navbar (id = navbar) it makes it easier
+            to define on you style.css page. As displayed above, start with the # and then write in the id you created for your navbar (or other items) after the #. So the example above shows # navbar, to show that we are writing code for the navbar.
+            After you do so, write in your curly brackets. Inside your curly brackets is where the style changes are placed. Looking at the first 4 lines of code, we can see that navbar is placed, my curly brackets are there and I have placed codes to
+            add style to my navbar. To have a navbar with a light blue background, I wrote in background-color : lightblue ;. You can change anything about your navbar (and other pieces of your website) such as background color, text color, font, etc.
+            Now go ahead and start changing the color and anything your mind can imagine with your css page.</p>
+    </div>
+    <h1> What did I make?</h1>
+    <img id=imgHowTo src="images/ex9.png" />
+    <div id=blogbox5> 
+    <p class="textClass">Above is a page that I made for my website. By putting together the basic elements/code needed to make a page (such as body, paragraph, etc. Including code to make a navbar) and connecting my style.css page to the current html page, I was able to
+        create a simple page. I center aligned a heading and paragraph to get the title Motherboard and paragraph below centered. Using # h1 { Text-align: center ; }, in the style css page centered the text of all headings. I added an image by using the
+        code below img src = “link to where the image came from”. Last but not least, I added an image of wood tiling by writing body { Background-image : url ("https://powerofpain.org/wp-content/uploads/2016/03/wood-background.jpg"); }. Putting together
+        all of the attributes and codes listed above (and mentioned), you can make a website like this.
+    </p>
+    </div>
+</body>
+
+</html>

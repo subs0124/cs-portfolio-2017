@@ -203,11 +203,9 @@ h2 {
     }
 }
 
-#Motherboard { 
+#Motherboard {
     position: relative;
     width: 350px;
-
-
 }
 
 #Motherboard2 {
@@ -215,7 +213,7 @@ h2 {
     width: 300px;
     left: 45%;
 }
- 
+
 #motherbox {
     position: absolute;
     left: 350px;
@@ -223,7 +221,6 @@ h2 {
     width: 600px;
     text-align: center;
     font-size: 145%;
-    
 }
 
 #CPUbox {
@@ -233,5 +230,92 @@ h2 {
     width: 600px;
     text-align: center;
     font-size: 145%;
-    
+    margin-top: -10px;
+}
+
+#RAMbox {
+    position: relative;
+    left: 350px;
+    height: 105px;
+    width: 600px;
+    text-align: center;
+    font-size: 145%;
+}
+
+#HDbox {
+    position: absolute;
+    left: 350px;
+    height: 105px;
+    width: 600px;
+    text-align: center;
+    font-size: 145%;
+}
+
+#KMMbox {
+    position: absolute;
+    left: 350px;
+    height: 105px;
+    width: 600px;
+    text-align: center;
+    font-size: 145%;
+}
+
+#CPU {
+    position: relative;
+}
+
+#kitten {
+    position: fixed;
+    width: 70%;
+    right: 1.05px;
+    top: 58.25px;
+}
+
+#blogbox {
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+    width: 1000px;
+    left: 130px;
+}
+
+#blogbox2 {
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+    width: 1000px;
+    left: 130px;
+}
+
+#blogbox3 {
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+    width: 1000px;
+    left: 130px;
+}
+
+.textClass {
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+#blogbox4 {
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+    width: 1000px;
+    left: 130px;
+}
+
+#blogbox5 {
+    position: relative;
+    text-align: center;
+    font-size: 120%;
+    width: 1000px;
+    left: 130px;
+}  
+
+#imgHowTo {
+    display: block;
+    margin: auto;
 }
