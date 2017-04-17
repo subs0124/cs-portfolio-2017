@@ -1,0 +1,120 @@
+body {
+    background-image: url("https://i.kinja-img.com/gawker-media/image/upload/s--EXJJOlon--/c_fill,fl_progressive,g_center,h_900,q_80,w_1600/abwfdjcumjmdazghoflq.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#navbar {
+    background-color: black;
+    text-align: left;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+}
+
+#navbar li {
+    display: inline-block;
+    padding: 15px;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 45px;
+    font-family: 'Pacifico', cursive;
+}
+
+#summitLogo {
+    width: 400px;
+    margin-left: 450px;
+}
+
+#quizSubtitle {
+    font-size: 20px;
+    margin: auto;
+    text-align: center;
+}
+     
+#q, #Q1 {
+    font-family: 'Indie Flower', cursive;
+    background-color: rgba(63, 191, 191, 0.39);
+    border: 3px dashed;
+    margin: auto;
+    padding: 30px;
+    border-color: white;
+    border-radius: 20px;
+    width: 1100px;
+    text-align:center;
+    font-weight: bold;
+    color: white;
+    font-size: 30px;
+    } 
+    
+p {
+    font-weight: bold;
+    font-family: fantasy;
+    color: white;
+    font-size: 50px;
+}
+
+    
+#q1pic {
+    width: 20%;
+    height: 20%;
+}
+
+#q2pic {
+    width: 200px;
+}
+
+#q3pic {
+    width: 20%;
+    height: 20%;
+}
+
+#q4pic {
+    width: 20%;
+    height: 20%;
+}
+
+#q5pic {
+    height: 100px;
+    width: 100px;
+}
+
+#q6pic {
+    width: 15%;
+    height: 20%;
+}
+
+#q7pic {
+    width: 20%;
+    height: 20%;
+}
+
+#q8pic {
+    width: 250px;
+}
+
+#q9pic {
+    width: 200px;
+}
+
+#submit {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 600px;
+    height: 70px;
+    width: 175px;
+    font-size: 30px;
+    font-family: cursive;
+    text-shadow: 3px 3px grey;
+    text-transform: uppercase;
+    border-color: rgba(73, 166, 238, 0.92);
+    border-radius: 20px;
+    border-width: 3px;
+    background-color: white;
+    font-weight: bold;
+}

@@ -7,10 +7,11 @@ var answer;
 
 button1.addEventListener("click", function() {
 
-
+    
     var num1 = parseInt(calcInput1.value);
     var num2 = parseInt(calcInput2.value);
     var op = dropdown.value
+
 
     if (op === "+") {
         var answer = num1 + num2;

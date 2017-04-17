@@ -1,38 +1,47 @@
 <head>
-    <title>Hey There</title>
+    <title>Hola</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <div id="navbar">
         <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="aboutMe.html">About me</a></li>
-            <li><a href="hardware.html">Hardware</a></li>
-            <li><a href="howToPage.html">How To(1)</a> </li>
-            <li><a href="calc.html"> Calculator </a> </li>
-            <li><a href="TodoList.html"> Todo List </a> </li>
-            <li><a href="#">How To (2)</a> </li>
-            <li><a href="#"> Vindinium </a> </li>
-            <li><a href="#"> Big Project </a> </li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About me</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
+        <li><a href="howToPage.html">How To(1)</a> </li>
+        <li><a href="calc.html"> Calculator </a> </li>
+        <li><a href="TodoList.html"> Todo List </a> </li>
+        <li><a href="howToPage2.html">How To (2)</a> </li>
+        <li><a href="howToVindinium.html"> Vindinium </a> </li>
+        <li><a href="bigProject.html"> Big Project </a> </li>
         </ul>
     </div>
-
+    <body>
     <h1>Calculator</h1>
-
+    
+    <!--this input tag is going to be the input box which will hold the 1st term in the equation -->
     <input type="number" id="calcInput1">
+    
+    <!--this is for the dropdown box and the operations that can be used in the calculator -->
     <select id="dropdown">
         <option value = "+">+</option>
         <option value = "-">-</option>
         <option value = "*">*</option>
         <option value = "/">/</option>
-        <option value = "^">^2</option>
-        <option value = "sqrt">&radic; </option>
+        <option value = "^">^</option>
+        <option value = "sqrt">&radic;</option>
     </select>
-
+    
+     <!--this input tag is going to be the input box which will hold the 2nd term in the equation -->
     <input type="number" id="calcInput2">
+    
+    <!--this is the button, when clicked will diplay the answer after Answer-->
     <input type="button" value="=" id="button1">
-
+    <p>Answer:</p>
+    
+    <!--this is where the Answer will be displayed-->
     <div id="calAnswer"></div>
 
+    <!-- this code links this HTML page to the Javascript page -->
     <script src="calc.js"></script>
 </body>

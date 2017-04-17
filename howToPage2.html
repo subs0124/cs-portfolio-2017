@@ -1,0 +1,91 @@
+<head>
+    <title>Hey There</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<div id="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutMe.html">About me</a></li>
+        <li><a href="hardware.html">Hardware</a></li>
+        <li><a href="howToPage.html">How To(1)</a> </li>
+        <li><a href="calc.html"> Calculator </a> </li>
+        <li><a href="TodoList.html"> Todo List </a> </li>
+        <li><a href="howToPage2.html">How To (2)</a> </li>
+        <li><a href="howToVindinium.html"> Vindinium </a> </li>
+        <li><a href="bigProject.html"> Big Project </a> </li>
+    </ul>
+</div>
+
+<body >
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <center>
+        <div id="cal1">
+            <p>
+                In this article, I’m going to explain how to make a functioning calculator. The first thing that you need to do is add in the basic code (such as head, body etc.)
+            </p>
+        </div>
+        <h1>Input Boxes</h1>
+        <p id="cal2">
+            After doing so, we are going to start coding the calculator. To make the two boxes that will hold your terms (the numbers), you must add two input tags. Since we are making two input boxes, you will also have to name each input tag as “calcInput1” and
+            “calcInput2”, so that we can identify them both in your JS and/or your CSS.
+        </p>
+        <p id="cal3">Extra: By adding a type (which is number), only numbers can be used in our input boxes.
+        </p>
+        <p id="cal4">Here is my code for the two input boxes:
+        </p>
+        <img src="images/input1.png" />
+        <p id="cal5">Here is what the code above looks like in your website:
+        </p>
+        <img src="images/input2.png" />
+        <h1>Dropdown w/ Operations</h1>
+        <p id="cal6">Now we are going to create a dropdown for our operations. First off we are going to add a select tag which creates our drop-down box. Now we need to create different options (which will be our mathematical operations) by creating option tags.
+            After doing so give that option tag a value attribute. This value will be the mathematical operation (ex. + for addition) which will be inside quotations. After giving the option tag a value, we will than add what will be displayed in the
+            drop-down box. For the addition option, I just wanted it to pop up as +, so I placed + in between the opening and closing option tags. Add as many operations as your heart desires. I added addition, subtraction, multiplication, division, power
+            of… , and lastly the square root of the term in the first input box.
+        </p>
+        <p id="cal7">My code looked like this:
+        </p>
+        <img src="images/input3.png" />
+        <p id="cal8">Which looks like this drop-down box:</p>
+        <img src="images/input4.png" />
+        <h1>Answer Button & Display</h1>
+        <p id="cal9">To finish the HTML of the Calculator, we need to add the answer button (to run the code) and were the answer will be displayed. To make a button that you can “click”, we are going to make an input tag and make its type equal to button. After we
+            do this, we are going to give it its value, which I put as “=”, and than an id so that we can connect it to our JS and CSS file (I used “button1” as the id). Once we have made the button we need to make the display, so that the answer appears
+            on your website. By making a div and giving it an id calAnswer, we than make a space for the answer to be displayed.
+        </p>
+        <div id=blogbox7>
+            <h1>Connect HTML to Javascript</h1>
+            <p id="cal10">(This includes if statements and how to gather all of the elements from HTML file)</p>
+            <p id="cal11">Last, but not least, we are going to connect our HTML file to our JS file. By making a script tag and placing the source attribute inside and connecting it to your JS file. My JS file was named calc.js, so that is what comes after the src attribute. </p>
+            <p id="cal12">The code looks like this:</p>
+            <img src="images/input5.png"/>
+            <p id="cal13">After finishing up your HTML file, we are now going to work on your JS file </p>
+        </div>
+        <h1>Javascript</h1>
+            <p id="cal14">The code to gather your elements looks like this:</p>
+            <img src="images/input6.png"/>
+            <p id="cal15">We are going to gather all are elements from our HTML file by using document.getElementById(). To start, we are first going to add var, which is variable, stores the data in our JS file. For every document we want to connect to our JS file, there will be a var and the element's name (the name we gave the element). As we can see in the image above, the element we gave the id calcInput1 to, has its identifier as calcInput1 after var. Following this identifier, we add =  to assign the value to the variable (so that it can store whatever calcInput1 is). So now that we have our var, identifier and “=”, we need to get calInput1 from our HTML file. By adding document.getElementId, we can retrieve whatever element from its id, that was given to it previously. </p>
+            <p id="cal16">Now we are going to make the operations in the dropdown work. First off, we are going to make sure that our button tells the program to perform whichever operation was chosen by the user to the two value sin the input boxes by adding an .addEventListener (). In front of this event listener, you are going to add the id of your button. My button being var button1, I then added button1.addEventListener (). After doing so, you will then add the function the button will have in the (). Since we want the button to perform the operation after the user clicks it, so our parameter “click” is placed in the  () followed by function.</p>
+            <p id="cal17">Which will look like the line of code below:</p>
+            <img src="images/input7.png"/>
+            <p id="cal18">After adding our .addEventListener, we will create variables for operations and input boxes of our calculator. We will now make two parseInt() functions to retrieve both integers that are equivalent to the numbers inputted in the two boxes. So num1 retrieves the first number placed in our first input  box while num2 retrieves the number placed in our second input box.  In essence assigning the value of calcInput1 to num1, later on recognizing calcInput1 as num1.</p>
+            <p id="cal19">Your code will then look like this: </p>
+            <img src="images/input8.png"/>
+            <p id="cal20">To finish up the JS for this calculator, we are going to add if statements to make the selected operations, chosen by the user, work. To start, we will write in if, op (which we set to have the same value as var dropdown) is equal (===) to “+”. After doing this we will set var answer to num1 + num2 (input box1 plus input box2). This will give us the sum of the two variables. To have the answer displayed on the screen, we will than add calAnswer.innerHTML and assign it to answer. This will connect back to the HTML file for our calculator, where a div has been created to display the answer.</p>
+            <p id="cal21">This is the code in my HTML file, that will display the answer: </p>
+            <img src="images/input9.png"/>
+            <p id="cal22">The code to + will look like this: </p>
+            <img src="images/input10.png"/>
+            <p id="cal23">Finish by adding else if statements, that follow the if statement created above (they are written the same as the if statement). By creating these conditional statements, the program is able to test each condition if the one before it is false. So if the user wants to subtract num1 from num2, the program will run our first if statement (which is addition) and test it. Since we want to perform subtraction not addition, the program will see our first if statement is false and will than move on to our second if statement (else if regarding subtraction) and will run it to see if it is true.</p>
+            <p id="cal24">This is what your code will look like: </p>
+            <img src="images/input11.png"/>
+        <h1>CSS for Calculator</h1>
+        <p id="cal25">I gave the answer a background color, so that the user would be able to read it easily. The code below gives your answer a background color, a font size, the background width, curved edges, and a centered answer. </p>
+        <img src="images/css1.png"/>
+        <p id="cal26">The code above is displayed on your screen looking like this:</p>
+        <img src="images/css2.png"/>
+        <p id="cal27">All of the CSS that I used for the calculator is below: </p>
+        <img src="images/css3.png"/>
+    </center>
+</body>

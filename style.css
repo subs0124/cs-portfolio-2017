@@ -1,15 +1,18 @@
+/*This is the background image for all pages in my website*/
 body {
-    background-image: url("https://powerofpain.org/wp-content/uploads/2016/03/wood-background.jpg");
+    background: url("http://wallpapercave.com/wp/4ZvVXu3.gif") no-repeat center center fixed;
+    /*background-repeat: no-repeat;*/
+    background-size: cover;
 }
 
+/*Navagation Bar */
 #navbar {
-    background-color: lightblue;
+    background-color: lightpink;
     text-align: left;
 }
 
 #navbar a {
     text-decoration: none;
-    color: white;
 }
 
 #navbar li {
@@ -21,17 +24,20 @@ body {
     width: 1350px;
     height: 10px;
     border: 2px;
-    background-color: orange;
     margin-top: 10px
 }
 
+/* Paragraph, Heading,and List Styling for whole website */
 p {
     color: white;
 }
 
 h1 {
-    color: white;
-    text-align: center
+    color: rgb(242, 121, 121);
+    text-align: center;
+    background-color:rgb(160, 219, 207);
+    border-radius: 20px;
+    width: 300px;
 }
 
 ul {
@@ -42,6 +48,7 @@ h2 {
     color: white;
 }
 
+/*About Me Page*/
 #backgroundbox {
     background-color: grey;
     width: 50%;
@@ -203,6 +210,7 @@ h2 {
     }
 }
 
+/*Hardware Page*/
 #Motherboard {
     position: relative;
     width: 350px;
@@ -264,12 +272,16 @@ h2 {
     position: relative;
 }
 
+/*Todo List*/
+
 #kitten {
     position: fixed;
     width: 70%;
     right: 1.05px;
     top: 58.25px;
 }
+
+/*How To Page 1*/
 
 #blogbox {
     position: relative;
@@ -318,4 +330,275 @@ h2 {
 #imgHowTo {
     display: block;
     margin: auto;
+}
+
+/*Calculator*/
+#calAnswer {
+    background-color: rgb(230, 255, 255);
+    font-size: 20px;
+    width: 10%;
+    border-radius: 20px;
+    text-align: center;
+} 
+
+#button1 {
+    background-color: rgb(242, 121, 121);
+    width: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+#dropdown {
+    background-color: rgb(243, 163, 27);
+    width: 35px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+/*How To */
+#cal1 {
+    background-color: rgb(243, 163, 27);
+    font-size: 20px;
+    text-align: center;
+    width: 60%;
+    font-family: 'Indie Flower', cursive;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal2 {
+    background-color: rgb(243, 163, 27);
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal3 {
+    background-color: rgb(243, 163, 27);
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal4 {
+    background-color: rgb(127, 232, 144);
+    font-size: 18px;
+    font-family: 'Indie Flower', cursive;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal5 {
+    background-color: rgb(127, 232, 144);
+    font-size: 20px;
+    font-family: 'Indie Flower', cursive;
+    width: 38%;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal6 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal7 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 19%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal8 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 26%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal9 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal10 {
+    background-color: rgb(242, 121, 121);
+    font-family: 'Indie Flower', cursive;
+    width: 55%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal11 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal12 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 18%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal13 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 50%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal14 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 35%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal15 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal16 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal17 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 30%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal18 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal19 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 25%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal20 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal21 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 43%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal22 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 24%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal23 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal24 {
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 26%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#cal25 {
+    background-color: rgb(243, 163, 27);
+    font-family: 'Indie Flower', cursive;
+    width: 65%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal26{
+    background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 43%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px;
+}
+
+#cal27{
+   background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 38%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
 }
