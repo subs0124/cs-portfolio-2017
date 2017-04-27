@@ -9,15 +9,18 @@ body {
 #navbar {
     background-color: lightpink;
     text-align: left;
+    
 }
 
 #navbar a {
     text-decoration: none;
+    color: white;
 }
 
 #navbar li {
     display: inline-block;
     padding: 15px;
+    color: white;
 }
 
 #box {
@@ -527,6 +530,7 @@ h2 {
     font-family: 'Indie Flower', cursive;
     width: 25%;
     font-size: 20px;
+    
     font-weight: bold;
     border-radius: 20px; 
 }
@@ -601,4 +605,76 @@ h2 {
     font-size: 20px;
     font-weight: bold;
     border-radius: 20px; 
+}
+
+#vin1 {
+    background-color: rgba(255, 179, 179, 0.76);
+    color:rgba(9, 14, 0, 0.76);
+    font-weight: bold;
+    border-radius: 20px;
+    width: 95%;
+}
+
+#vin2 {
+   background-color:rgb(255, 179, 179); 
+   font-weight: bold;
+   font-family: 'Indie Flower', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 75%;
+   
+}
+
+#vin3 {
+    background-color:rgb(255, 153, 153); 
+    font-weight: bold;
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+    border-radius: 20px;
+    width: 75%;
+}
+
+#vin4 {
+    background-color:rgb(255, 128, 128); 
+   font-weight: bold;
+   font-family: 'Indie Flower', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 75%;
+}
+
+#vin5 {
+    background-color:rgb(255, 102, 102); 
+   font-weight: bold;
+   font-family: 'Indie Flower', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 75%; 
+}
+
+#vin6 {
+     background-color:rgb(255, 77, 77); 
+   font-weight: bold;
+   font-family: 'Indie Flower', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 75%;
+}
+
+#vin7 {
+     background-color:rgb(255, 51, 51); 
+   font-weight: bold;
+   font-family: 'Indie Flower', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 75%;
+}
+
+#vin8 {
+     background-color:rgb(255, 26, 26); 
+   font-weight: bold;
+   font-family: 'Indie Flower', cursive;
+   font-size: 20px;
+   border-radius: 20px;
+   width: 75%;
 }
