@@ -22,13 +22,13 @@
     <center>
         <div id="cal1">
             <p>
-                In this article, I’m going to explain how to make a functioning calculator. The first thing that you need to do is add in the basic code (such as head, body etc.)
+                In this article, I'm going to explain how to make a functioning calculator. The first thing that you need to do is add in the basic code (such as head, body etc.)
             </p>
         </div>
         <h1>Input Boxes</h1>
         <p id="cal2">
-            After doing so, we are going to start coding the calculator. To make the two boxes that will hold your terms (the numbers), you must add two input tags. Since we are making two input boxes, you will also have to name each input tag as “calcInput1” and
-            “calcInput2”, so that we can identify them both in your JS and/or your CSS.
+            After doing so, we are going to start coding the calculator. To make the two boxes that will hold your terms (the numbers), you must add two input tags. Since we are making two input boxes, you will also have to name each input tag as "calcInput1" and
+            "calcInput2", so that we can identify them both in your JS and/or your CSS.
         </p>
         <p id="cal3">Extra: By adding a type (which is number), only numbers can be used in our input boxes.
         </p>
@@ -50,8 +50,8 @@
         <p id="cal8">Which looks like this drop-down box:</p>
         <img src="images/input4.png" />
         <h1>Answer Button & Display</h1>
-        <p id="cal9">To finish the HTML of the Calculator, we need to add the answer button (to run the code) and were the answer will be displayed. To make a button that you can “click”, we are going to make an input tag and make its type equal to button. After we
-            do this, we are going to give it its value, which I put as “=”, and than an id so that we can connect it to our JS and CSS file (I used “button1” as the id). Once we have made the button we need to make the display, so that the answer appears
+        <p id="cal9">To finish the HTML of the Calculator, we need to add the answer button (to run the code) and were the answer will be displayed. To make a button that you can "click", we are going to make an input tag and make its type equal to button. After we
+            do this, we are going to give it its value, which I put as "=", and than an id so that we can connect it to our JS and CSS file (I used "button1" as the id). Once we have made the button we need to make the display, so that the answer appears
             on your website. By making a div and giving it an id calAnswer, we than make a space for the answer to be displayed.
         </p>
         <div id=blogbox7>
@@ -65,14 +65,14 @@
         <h1>Javascript</h1>
             <p id="cal14">The code to gather your elements looks like this:</p>
             <img src="images/input6.png"/>
-            <p id="cal15">We are going to gather all are elements from our HTML file by using document.getElementById(). To start, we are first going to add var, which is variable, stores the data in our JS file. For every document we want to connect to our JS file, there will be a var and the element's name (the name we gave the element). As we can see in the image above, the element we gave the id calcInput1 to, has its identifier as calcInput1 after var. Following this identifier, we add =  to assign the value to the variable (so that it can store whatever calcInput1 is). So now that we have our var, identifier and “=”, we need to get calInput1 from our HTML file. By adding document.getElementId, we can retrieve whatever element from its id, that was given to it previously. </p>
-            <p id="cal16">Now we are going to make the operations in the dropdown work. First off, we are going to make sure that our button tells the program to perform whichever operation was chosen by the user to the two value sin the input boxes by adding an .addEventListener (). In front of this event listener, you are going to add the id of your button. My button being var button1, I then added button1.addEventListener (). After doing so, you will then add the function the button will have in the (). Since we want the button to perform the operation after the user clicks it, so our parameter “click” is placed in the  () followed by function.</p>
+            <p id="cal15">We are going to gather all are elements from our HTML file by using document.getElementById(). To start, we are first going to add var, which is variable, stores the data in our JS file. For every document we want to connect to our JS file, there will be a var and the element's name (the name we gave the element). As we can see in the image above, the element we gave the id calcInput1 to, has its identifier as calcInput1 after var. Following this identifier, we add =  to assign the value to the variable (so that it can store whatever calcInput1 is). So now that we have our var, identifier and "=", we need to get calInput1 from our HTML file. By adding document.getElementId, we can retrieve whatever element from its id, that was given to it previously. </p>
+            <p id="cal16">Now we are going to make the operations in the dropdown work. First off, we are going to make sure that our button tells the program to perform whichever operation was chosen by the user to the two value sin the input boxes by adding an .addEventListener (). In front of this event listener, you are going to add the id of your button. My button being var button1, I then added button1.addEventListener (). After doing so, you will then add the function the button will have in the (). Since we want the button to perform the operation after the user clicks it, so our parameter "click" is placed in the  () followed by function.</p>
             <p id="cal17">Which will look like the line of code below:</p>
             <img src="images/input7.png"/>
             <p id="cal18">After adding our .addEventListener, we will create variables for operations and input boxes of our calculator. We will now make two parseInt() functions to retrieve both integers that are equivalent to the numbers inputted in the two boxes. So num1 retrieves the first number placed in our first input  box while num2 retrieves the number placed in our second input box.  In essence assigning the value of calcInput1 to num1, later on recognizing calcInput1 as num1.</p>
             <p id="cal19">Your code will then look like this: </p>
             <img src="images/input8.png"/>
-            <p id="cal20">To finish up the JS for this calculator, we are going to add if statements to make the selected operations, chosen by the user, work. To start, we will write in if, op (which we set to have the same value as var dropdown) is equal (===) to “+”. After doing this we will set var answer to num1 + num2 (input box1 plus input box2). This will give us the sum of the two variables. To have the answer displayed on the screen, we will than add calAnswer.innerHTML and assign it to answer. This will connect back to the HTML file for our calculator, where a div has been created to display the answer.</p>
+            <p id="cal20">To finish up the JS for this calculator, we are going to add if statements to make the selected operations, chosen by the user, work. To start, we will write in if, op (which we set to have the same value as var dropdown) is equal (===) to "+". After doing this we will set var answer to num1 + num2 (input box1 plus input box2). This will give us the sum of the two variables. To have the answer displayed on the screen, we will than add calAnswer.innerHTML and assign it to answer. This will connect back to the HTML file for our calculator, where a div has been created to display the answer.</p>
             <p id="cal21">This is the code in my HTML file, that will display the answer: </p>
             <img src="images/input9.png"/>
             <p id="cal22">The code to + will look like this: </p>
