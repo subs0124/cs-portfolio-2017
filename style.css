@@ -671,10 +671,46 @@ h2 {
 }
 
 #vin8 {
-     background-color:rgb(255, 26, 26); 
+    background-color:rgb(255, 26, 26); 
    font-weight: bold;
    font-family: 'Indie Flower', cursive;
    font-size: 20px;
    border-radius: 20px;
    width: 75%;
+}
+
+#quiz1 {
+   background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#quiz2 {
+   background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#quiz3 {
+   background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
+}
+
+#quiz4 {
+   background-color: rgb(127, 232, 144);
+    font-family: 'Indie Flower', cursive;
+    width: 70%;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 20px; 
 }

@@ -24,7 +24,6 @@ document.getElementById("submit").addEventListener("click", function() {
 
 
      // question 1
-
      for (var i = 0; i < color.length; i++) {
           if (color[i].checked) {
 
@@ -34,32 +33,25 @@ document.getElementById("submit").addEventListener("click", function() {
                if (color[i].value === "Mr. Hesby") {
                     hesby++;
                }
-
                else if (color[i].value === "Ms. Gross") {
                     gross++;
                }
-
                else if (color[i].value === "Ms. G") {
                     g++;
                }
-
                else if (color[i].value === "Mr. Dalton") {
                     dalton++;
                }
-
                else if (color[i].value === "Mr.McCarty") {
                     mccarty++;
                }
-
                else if (color[i].value === "Ms. O'Connor") {
                     oconnor++;
                }
-
                else if (color[i].value === "Ms.Mogannam") {
                     mogannam++;
                }
                alert(hesby)
-
           }
      }
 
